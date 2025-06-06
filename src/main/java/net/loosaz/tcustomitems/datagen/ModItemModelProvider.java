@@ -44,6 +44,7 @@ public class ModItemModelProvider extends ItemModelProvider {
     protected void registerModels() {
         simpleItem(ModItems.SAPPHIRE);
         simpleItem(ModItems.QUEST_TOKEN);
+        simpleItem(ModItems.NETHER_ITEM);
 
 
         handheldItem(ModItems.LOOSAZ_SWORD);

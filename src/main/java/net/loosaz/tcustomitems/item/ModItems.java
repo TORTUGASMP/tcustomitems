@@ -19,7 +19,8 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> QUEST_TOKEN = ITEMS.register("quest_token",
             () -> new Item(new Item.Properties()));
-
+    public static final RegistryObject<Item> NETHER_ITEM = ITEMS.register("nether_item",
+            () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> LOOSAZ_SWORD = ITEMS.register("loosaz_sword_1",
             () -> new LoosaZSword(ModToolTiers.SAPPHIRE, 661, -2, new Item.Properties().fireResistant()));
